@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lato&family=Lora:wght@600&family=Metal+Mania&family=Poppins:wght@100;400&family=Roboto&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&family=Volkhov&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lato&family=Lora:wght@600&family=Metal+Mania&family=Poppins:wght@100;400&family=Roboto&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&family=VT323&family=Volkhov&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'VT323' , sans-serif;
+    background-color: #FFDDCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    width: 450px;
+    height: 300px;
+    background-color: #FFEECC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0, .08);
+}
+.heading{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #6d0456;
+}
+.ratings-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.rating:hover ,
+.active {
+    background-color: #FEBBCC;
+}
+.rating:hover small{
+    color: rgb(212, 32, 182);
+}
+.rating img{
+    width: 40px;
+}
+.rating small{
+    font-family: 'VT323' , sans-serif;
+    font-size: 16px;
+    color: #630b50;
+}
+.btn{
+    background-color: #FFCCCC;
+    padding: 10px 20px;
+    font-family: 'VT323' , sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #6b0c57;
+    cursor: pointer;
+    color: #6d0456;
+    transition: all .3s;
+}
+.btn:hover{
+    background-color: #fabbbb;
+}
+.btn:active{
+    transform: scale(.78);
+}
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.text{
+    font-size: 26px;
+    color: #630b50;
+    text-align: center;
+}
